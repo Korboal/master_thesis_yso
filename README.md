@@ -14,10 +14,11 @@ Due to the size of LAV tables and output, they are too big for GitHub. The table
 * LAV YSO sample .txt table [159 MB] - https://drive.google.com/file/d/1vr5worX65cJofhFoCYCXR17OVUoYnULi/view?usp=sharing
 * LAV YSO sample .html table [135 MB] - https://drive.google.com/file/d/1Xt4h72dAk1C1f328iQQYfXgwVp1BNjjn/view?usp=sharing
 
-**LPV table description**
+**LPV table column description**
 
 g2 indicates that the column is taken from Gaia DR2 database.
 ge3 indicates that the column is taken from Gaia EDR3 database.
+simbad indicates that the information was obtained from simbad.
 
 1) source_id_g2 - Unique source identifier (unique within a particular Data Release) 
 2) phot_g_mean_mag_g2 - G-band mean magnitude
@@ -167,8 +168,62 @@ ge3 indicates that the column is taken from Gaia EDR3 database.
 146) yso_based_on_either_criteria - YSO identified based on either having IR excess or location within SFR (True/False)
 147) yso_based_on_both_criteria - YSO identified by having both IR excess and located within SFR (True/False)
 
+**LAV table column descriptions**
 
+all Gaia data is obtained from GEDR3
+simbad indicates that the information was obtained from simbad.
 
-
-
-
+1) source_id - GEDR3 source ID
+2) ra
+3) dec
+4) parallax_mas
+5) parallax_error_mas
+6) pmra_masperyr
+7) pmra_error_masperyr
+8) pmdec_masperyr
+9) pmdec_error_masperyr
+10) visibility_periods_used
+11) ruwe
+12) phot_g_n_obs
+13) phot_g_mean_mag
+14) phot_bp_n_obs
+15) g_mean_mag_err
+16) phot_bp_mean_mag
+17) phot_rp_n_obs
+18) bp_mean_mag_err
+19) phot_rp_mean_mag
+20) rp_mean_mag_err
+21) phot_bp_rp_excess_factor
+22) DR2_LPV
+23) isDR2var
+24) last_wv - Wavelength of the filter with the longest wavelength [m]
+25) last_ratio_err - Error of ratio of the last filter
+26) last_ratio - Ratio of the last filter
+27) biggest_ratio_err - Error of the biggest ratio
+28) biggest_ratio_wv - Wavelength of the filter with the biggest ratio [m]
+29) biggest_ratio - Ratio of the filter with the biggest ratio
+30) slope_25 - Spectral index 2.2 to 25 micrometers
+31) slope_error_25 - St.dev. of spectral index 2.2 to 25 micrometers
+32) slope_25_yso_class - Class based on spectral index 2.2 to 25 micrometers
+33) slope_20 - Spectral index 2.2 to 20 micrometers
+34) slope_error_20 - St.dev. of spectral index 2.2 to 20 micrometers
+35) slope_20_yso_class - Class based on spectral index 2.2 to 20 micrometers
+36) integrated_excess - Value of integrated IR excess between Rayleigh-Jeans regime and intra-, extrapolation of SED between 4 and 25 micrometers
+37) too_high_rayleigh_slope - If too high slope Rayleigh-Jeans slope, usually meaning that something is wrong with the SED
+38) points_slope_25 - How many points between 2.2 and 25 um
+39) points_slope_20 - How many points between 2.2 and 20 um
+40) mir_exists - Whether least 2 points exist beyond 2.2 micrometers
+41) good_sed - Stars that have good SEDs
+42) sfr_name - Name of star-forming region based on visual location and parallax
+43) confidence_sfr - Closer location visually results in higher confidence (0 to 1, 1 indicating being very close to centre, and 0 not being part of any SFR)
+44) similar_to_sfr_pm - Whether a star is within 5 sigmas of the SFR's stars' median proper motion (yes, no, ??; ?? - means that no information on SFR's PM is available)
+45) main_id_simbad - Name in SIMBAD from 1 arcsec cross-match
+46) other_types_simbad - All other types of star in SIMBAD
+47) simbad_main_type - Star type in SIMBAD
+48) simbad_yso - YSOs identified in SIMBAD (main type)
+49) simbad_yso_cand - Only candidates YSO in SIMBAD (main type)
+50) simbad_not_yso_or_cand - Not SIMBAD YSO or YSO cand. (main type)
+51) ir_excess_criteria - YSO identified by having IR excess (True/False)
+52) sfr_criteria - YSO identified by being within SFR and having same PM if applicable (True/False)
+53) yso_based_on_either_criteria - YSO identified based on either having IR excess or location within SFR (True/False)
+54) yso_based_on_both_criteria - YSO identified by having both IR excess and located within SFR (True/False)
