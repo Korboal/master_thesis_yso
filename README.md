@@ -7,7 +7,7 @@ PDFs and output tables are located in the appropriate folders. Three different f
 
 **LAV:**
 
-Due to the size of LAV tables and output, they are too big for GitHub. The tables and output PDFs can be accessed at following links. Tables are the same just with different extension. They include all analysed 133717 stars. But, only try to use the stars that were marked as "True" for column "good_sed".
+Due to the amount of stars in the LAV sample, the tables are too big for GitHub. The tables and output PDFs can be accessed in following links. Tables are the same just with different extension. They include all analysed 133717 stars. However, please only use the stars that were marked as "True" for column "good_sed".
 
 * LAV YSO sample output PDFs in a zip file [7.26 GB] - https://drive.google.com/file/d/1zBmQ-QL6Wuf7PEe1OZUEh4C1Htc44fUn/view?usp=sharing
 * LAV YSO sample .fits table [65 MB] - https://drive.google.com/file/d/1oa5M7ReulgbVmSNugxSEkAIdmZVVkdQo/view?usp=sharing
