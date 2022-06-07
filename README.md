@@ -90,3 +90,55 @@ ge3 indicates that the column is taken from Gaia EDR3 database.
 69) last_wv - Wavelength of the filter with the longest wavelength [m]
 70) last_ratio_err - Error of ratio of the last filter
 71) last_ratio - Ratio of the last filter
+72) biggest_ratio_err - Error of the biggest ratio
+73) biggest_ratio_wv - Wavelength of the filter with the biggest ratio [m]
+74) biggest_ratio - Ratio of the filter with the biggest ratio
+75) last_wv_mir - Wavelength of the filter with the longest wavelength shorter than 25 micrometers [m]
+76) last_ratio_err_mir - Error of ratio of the last filter shorter than 25 micrometers
+77) last_ratio_mir - Ratio of the last filter shorter than 25 micrometers
+78) biggest_ratio_err_mir - Error of the biggest ratio shorter than 25 micrometers
+79) biggest_ratio_wv_mir - Wavelength of the filter with the biggest ratio shorter than 25 micrometers [m]
+80) biggest_ratio_mir - Ratio of the filter with the biggest ratio shorter than 25 micrometers
+81) slope_25 - Spectral index 2.2 to 25 micrometers
+82) slope_error_25 - St.dev. of spectral index 2.2 to 25 micrometers
+83) slope_25_yso_class - Class based on spectral index 2.2 to 25 micrometers
+84) slope_20 - Spectral index 2.2 to 20 micrometers
+85) slope_error_20 - St.dev. of spectral index 2.2 to 20 micrometers
+86) slope_20_yso_class - Class based on spectral index 2.2 to 20 micrometers
+87) integrated_excess - Value of integrated IR excess between Rayleigh-Jeans regime and intra-, extrapolation of SED between 4 and 25 micrometers
+88) period_gaia_g - Fitted period of Gaia G [days]
+89) max_amp_gaia_g - Max amplitude of Gaia G light curve [mag]
+90) q95_m_q5_gaia_g - Q95 - Q5 of Gaia G light curve [mag]
+91) st_dev_gaia_g - St. dev. of Gaia G light curve [mag]
+92) avg_err_gaia_g - Average error of Gaia G light curve data points [mag]
+93) amp_fit_gaia_g - Amplitude of the light curve fit for Gaia G [mag]
+94) points_gaia_g - Amount of data points in Gaia G light curve
+95) skewness_gaia_g - Skewness of Gaia G light curve
+96) total_obs_time_gaia_g - Total observational time between first and last Gaia G measurement [days]
+97) points_gaia_bp - Amount of data points in Gaia BP light curve
+98) points_gaia_rp - Amount of data points in Gaia RP light curve
+99) gaia_g_ls_fap - False alarm probability Gaia G light curve
+100) period_ztf_g - Fitted period of ZTF g [days]
+101) points_ztf_g - Amount of data points in ZTF g
+102) period_ztf_r - Fitted period of ZTF r [days]
+103) points_ztf_r - Amount of data points in ZTF r
+104) period_ztf_i - Fitted period of ZTF i [days]
+105) points_ztf_i - Amount of data points in ZTF i
+106) max_amp_ztf_g - Max amplitude of ZTF g [mag]
+107) q95_m_q5_ztf_g - Q95 - Q5 of ZTF g [mag]
+108) st_dev_ztf_g - St. dev. of ZTF g [mag]
+109) avg_err_ztf_g - Average error of ZTF g data points [mag]
+110) max_amp_ztf_r - Max amplitude of ZTF r [mag]
+111) q95_m_q5_ztf_r - Q95 - Q5 of ZTF r [mag]
+112) st_dev_ztf_r - St. dev. of ZTF r [mag]
+113) avg_err_ztf_r - Average error of ZTF r data points [mag]
+114) max_amp_ztf_i - Max amplitude of ZTF i [mag]
+115) q95_m_q5_ztf_i - Q95 - Q5 of ZTF i [mag]
+116) st_dev_ztf_i - St. dev. of ZTF i [mag]
+117) avg_err_ztf_i - Average error of ZTF i data points [mag]
+118) amp_fit_ztf_g - Amplitude of the light curve fit for ZTF g [mag]
+119) amp_fit_ztf_r - Amplitude of the light curve fit for ZTF r [mag]
+120) amp_fit_ztf_i - Amplitude of the light curve fit for ZTF i [mag]
+121) band_mean_ztf_g - Band mean of ZTF g [mag]
+122) band_mean_ztf_r - Band mean of ZTF r [mag]
+123) band_mean_ztf_i - Band mean of ZTF i [mag]
