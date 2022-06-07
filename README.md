@@ -1,6 +1,8 @@
 # master_thesis_yso
 Supplementary material for master thesis
 
+Code used for the project can be found at my GitHub page: https://github.com/Korboal/yso_pdf_creator_v2
+
 **LPV:**
 
 PDFs and output tables are located in the appropriate folders. Three different files for tables exist: they are all the same table just with different file extensions. LPV table includes all 811 analysed files.
