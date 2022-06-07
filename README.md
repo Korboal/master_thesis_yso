@@ -142,3 +142,33 @@ ge3 indicates that the column is taken from Gaia EDR3 database.
 121) band_mean_ztf_g - Band mean of ZTF g [mag]
 122) band_mean_ztf_r - Band mean of ZTF r [mag]
 123) band_mean_ztf_i - Band mean of ZTF i [mag]
+124) skewness_ztf_g - Skewness of ZTF g
+125) skewness_ztf_r - Skewness of ZTF r
+126) skewness_ztf_i - Skewness of ZTF i
+127) total_obs_time_ztf_g - Total observational time between first and last ZTF g measurement [days]
+128) total_obs_time_ztf_r - Total observational time between first and last ZTF r measurement [days]
+129) total_obs_time_ztf_i - Total observational time between first and last ZTF i measurement [days]
+130) ztf_g_ls_fap - False alarm probability ZTF g
+131) ztf_r_ls_fap - False alarm probability ZTF r
+132) gaia_g_snr - Signal to noise ratio of Gaia G fitted peak in periodogram
+133) ztf_g_snr - Signal to noise ratio of ZTF g fitted peak in periodogram
+134) ztf_r_snr - Signal to noise ratio of ZTF r fitted peak in periodogram
+135) gaia_g_gof - Goodness of fit of fitted period based on normalised periodogram for Gaia G
+136) ztf_g_gof - Goodness of fit of fitted period based on normalised periodogram for ZTF g
+137) ztf_r_gof - Goodness of fit of fitted period based on normalised periodogram for ZTF r
+138) light_curve_fitting_flag - Flag indicating what type of light curve fit was done (Type I-IV)
+139) sfr_name - Name of star-forming region based on visual location and parallax
+140) confidence_sfr - Closer location visually results in higher confidence (0 to 1, 1 indicating being very close to centre, and 0 not being part of any SFR)
+141) similar_to_sfr_pm - Whether a star is within 5 sigmas of the SFR's stars' median proper motion (yes, no, ??; ?? - means that no information on SFR's PM is available)
+142) not_yso_sample - Stars that are red giants in HR diagram and lack IR excess (True/False)
+143) yso_sample - Reduced sample. Either located within YSO part of HR diagram or have IR excess (True/False)
+144) ir_excess_criteria - YSO identified by having IR excess (True/False)
+145) sfr_criteria - YSO identified by being within SFR and having same PM if applicable (True/False)
+146) yso_based_on_either_criteria - YSO identified based on either having IR excess or location within SFR (True/False)
+147) yso_based_on_both_criteria - YSO identified by having both IR excess and located within SFR (True/False)
+
+
+
+
+
+
